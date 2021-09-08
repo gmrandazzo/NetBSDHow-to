@@ -55,8 +55,7 @@ error: 'Access denied for user 'root'@'localhost' (using password: YES)
 Verify /var/log/messages and /var/mysql/localhost.err
 
 There is maybe an already running mysqld which has not be stopped before reinstalling or upgrading 
-your mysql server. Then in this case kill the proces, remove /var/mysql and restart again wht the "Setup the database and the root account"
-
+your mysql server. Then in this case kill the proces, remove /var/mysql and restart from "Setup the database and the root account"
 
 Last Update
 -----------
