@@ -40,8 +40,19 @@ and use when requested by the the following command:
 /usr/pkg/bin/mysqladmin -u root -p password 'PUT HERE A NEW PASSWORD"
 ````
 
+Run mysql at boot
+-----------------
+
+Add this line into your /etc/rc.conf script
+
+```
+echo mysqld=YES >> /etc/rc.conf 
+```
+
+
+
 Possible errors
---------------
+---------------
 
 While changing the root password you may face to this error:
 
