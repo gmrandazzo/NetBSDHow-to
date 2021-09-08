@@ -1,0 +1,1 @@
+# NetBSDHow-to
