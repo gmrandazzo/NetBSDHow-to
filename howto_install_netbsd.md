@@ -33,8 +33,10 @@ dbus=YES
 Install certificate to use SSL-aware programs
 ---------------------------------------------
 
+```
 pkgin install mozilla-rootcerts
 mozilla-rootcerts install
+```
 
 
 
